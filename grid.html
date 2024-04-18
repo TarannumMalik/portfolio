@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>grid</title>
+    <style>
+    .grid-container {
+        display: grid;
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-areas:area area area area area;
+        background-color: #2196F3;
+        padding: 49px;
+        margin: 10px;
+        align-content: start;
+      }
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+
+      }
+      .grid-item1 {
+        grid-area: myarea;
+
+      }
+      </style>
+      
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item1">1</div>
+        <div class="grid-item2">2</div>
+        <div class="grid-item3">3</div>
+        <div class="grid-item4">46556tf</div>
+        <div class="grid-item5">5</div>
+        <div class="grid-item6">6</div>
+        <div class="grid-item7">7</div>
+        <div class="grid-item8">8</div>
+        <div class="grid-item9">9</div>
+      </div>
+      
+</body>
